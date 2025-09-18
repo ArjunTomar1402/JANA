@@ -1,0 +1,29 @@
+[server]
+# Disable file watching to avoid inotify instance limit error
+fileWatcherType = "none"
+
+# Allow large PDF/text uploads (adjust MB as needed)
+maxUploadSize = 200
+
+# Port (Streamlit Cloud sets automatically, but you can keep this)
+port = 8501
+
+# Headless mode for Streamlit Cloud
+headless = true
+
+# Enable CORS (good practice for cloud deployment)
+enableCORS = false
+
+# Automatically show the main menu
+enableWebsocketCompression = true
+
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#f5f5f5"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#000000"
+font = "sans serif"
+
+[logger]
+# Show info messages
+level = "info"

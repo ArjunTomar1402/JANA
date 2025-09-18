@@ -1,0 +1,194 @@
+/* File: assets/styles.css */
+
+/* Main headers */
+.main-header {
+    font-size: 4rem;
+    color: #BC002D; /* Japan red */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.sub-header {
+    font-size: 1.5rem;
+    color: #e60026; /* softer red */
+    margin-bottom: 1rem;
+}
+
+/* Expander summary & content */
+.st-expander {
+    background-color: #FFFFFF !important; /* white background */
+    color: #1f1f1f !important;
+    border: 1px solid #BC002D !important;
+    border-radius: 0.5rem !important;
+}
+
+.st-expander summary {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+}
+
+/* File uploader */
+.stFileUploaderDropzone {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+    border: 2px dashed #BC002D !important;
+    border-radius: 0.5rem !important;
+}
+
+.stFileUploaderDropzone .stBaseButton-secondary {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+.stFileUploaderDropzone .stBaseButton-secondary:hover {
+    background-color: #e60026 !important;
+    color: #FFFFFF !important;
+}
+
+/* Text area */
+textarea.st-bc {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+    border: 1px solid #BC002D !important;
+    border-radius: 0.3rem !important;
+    padding: 0.5rem !important;
+}
+
+/* Scrollbars inside text areas */
+textarea.st-bc::-webkit-scrollbar {
+    width: 10px;
+}
+
+textarea.st-bc::-webkit-scrollbar-thumb {
+    background-color: #BC002D;
+    border-radius: 5px;
+}
+
+textarea.st-bc::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+/* Change color of expander summary text */
+.st-expander summary {
+    color: #FFFFFF;   /* text white */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Optional: hover effect */
+.st-expander summary:hover {
+    color: #e60026;   /* softer red on hover */
+}
+
+/* Info and warning boxes */
+.info-box {
+    background-color: #FFFFFF !important;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #BC002D;
+}
+.feature-text {
+    color: #BC002D;
+    font-weight: bold;
+}
+.warning-box {
+    background-color:  #FFFFFF !important;
+    border-left: 4px solid #e60026;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.st-ep {
+    background-color: #e60026;
+}
+
+/* Style Streamlit alert notifications */
+div[data-testid="stAlertContainer"] {
+    background-color: #BC002D !important; /* Red */
+    color: #ffffff !important;            /* White text */
+    border: 1px solid #BC002D !important; /* Darker red border */
+    border-radius: 0.4rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+/* Ensure inner text is white as well */
+div[data-testid="stAlertContainer"] p {
+    color: #ffffff !important;
+}
+
+/* Batch processor box */
+.batch-processor {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #BC002D;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #BC002D;
+    font-size: 0.8rem;
+}
+
+/* Streamlit top toolbar customization */
+.stAppToolbar {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+}
+
+/* Toolbar buttons */
+.stAppToolbar button {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* Expand sidebar button */
+.stAppToolbar button[data-testid="stExpandSidebarButton"] {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+}
+
+/* Deploy button */
+.stAppToolbar .stAppDeployButton button {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+}
+
+/* Main menu button */
+.stAppToolbar #MainMenu button {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+}
+
+/* Hover effects for buttons */
+.stAppToolbar button:hover {
+    background-color: #e60026 !important;
+    color: #FFFFFF !important;
+}
+
+/* Global light theme */
+.stApp {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+}
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+}
+.stDataFrame table {
+    background-color: #FFFFFF !important;
+    color: #1f1f1f !important;
+}
+button, .stButton button {
+    background-color: #BC002D !important;
+    color: #FFFFFF !important;
+}
+.stMarkdown, .stText {
+    color: #1f1f1f !important;
+}
